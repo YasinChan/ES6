@@ -1,9 +1,5 @@
-class Test{
-    constructor(){
-        this.a = 'hello world'
-    }
-}
+import 'babel-polyfill';
 
-let test = new Test();
-
-document.body.innerHTML = test.a;
+// import './class/Common_API';
+// import './class/Numerical_expansion';
+import './class/Array_extension';
